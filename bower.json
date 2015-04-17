@@ -1,0 +1,29 @@
+{
+  "name": "PortalMauaERegiao-facebook-box",
+  "version": "0.1.0",
+  "authors": [
+    "marcker <marckfree@gmail.com>"
+  ],
+  "description": "Box que permite usuários curtirem e visitarem a página do Portal",
+  "main": "index.php",
+  "keywords": [
+    "portal",
+    "maua",
+    "facebook",
+    "box",
+    "modal"
+  ],
+  "license": "MIT",
+  "homepage": "http://portalmauaeregiao.com.br",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3"
+  }
+}

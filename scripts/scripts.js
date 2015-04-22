@@ -22,7 +22,7 @@ PortalMauaERegiao.utils = {
     botao.addEventListener('click', fechar);
 
     if (localStorage.paginaCurtida === 'true') {
-      // fechar();
+      fechar();
     }
   },
 

@@ -31,14 +31,10 @@ PortalMauaERegiao.utils = {
       descurtir;
 
     curtir = function(url, html) {
-      console.log(url);
-      console.log(html);
       localStorage.setItem('paginaCurtida', 'true');
     };
 
     descurtir = function(url, html) {
-      console.log(url);
-      console.log(html);
       localStorage.setItem('paginaCurtida', 'false');
     };
 

@@ -1,11 +1,18 @@
 <!doctype html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
         <link rel="stylesheet" href="styles/styles.css">
         <title>Portal Mauá e Região &#8212; Facebook Box</title>
     </head>
     <body>
+        <div class="test">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, corporis, dolor? Velit facilis aut nesciunt molestias fugit ad ipsam perferendis eaque delectus, rem atque tenetur non incidunt id praesentium saepe.
+            </p>
+        </div>
+
         <section class="facebook-box-overlay"></section>
 
         <section class="facebook-box">
@@ -23,6 +30,8 @@
                 </div>
             </a>
         </section>
+
+        <div id="fb-root"></div>
     </body>
 
     <div id="fb-root"></div>
@@ -33,6 +42,6 @@
       js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3&appId=655285364605085";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-
     <script src="scripts/scripts.js"></script>
+
 </html>

@@ -21,6 +21,10 @@
             </div>
 
             <div class="facebook-widget">
+                <div class="loading-widget">
+                    <img src="images/loading-widget.gif" alt="">
+                </div>
+
                 <div class="fb-page" data-href="https://www.facebook.com/pages/Portal-Mau%C3%A1-e-Regi%C3%A3o/359211450756546" data-width="320" data-height="220" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/Portal-Mau%C3%A1-e-Regi%C3%A3o/359211450756546"><a href="https://www.facebook.com/pages/Portal-Mau%C3%A1-e-Regi%C3%A3o/359211450756546">Portal Mauá e Região</a></blockquote></div></div>
             </div>
 
@@ -30,8 +34,6 @@
                 </div>
             </a>
         </section>
-
-        <div id="fb-root"></div>
     </body>
 
     <div id="fb-root"></div>

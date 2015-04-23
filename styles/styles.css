@@ -1,6 +1,6 @@
 .facebook-box-overlay{
-  background: rgba(0, 0, 0, .5);
-  display: block;
+  background: rgba(0, 0, 0, .9);
+  display: none;
   height: 100%;
   position: fixed;
   top: 0;
@@ -15,9 +15,9 @@
 }
 
 .facebook-box{
-  background: rgb(255, 255, 255);
+  background: rgb(100, 113, 166);
   border: 10px solid rgba(0, 0, 0, .7);
-  display: block;
+  display: none;
   height: 320px;
   left: calc(50% - 340px / 2);
   position: fixed;
@@ -67,6 +67,7 @@ a .button-fanpage button{
   border: 0;
   bottom: 0;
   color: rgb(255, 255, 255);
+  cursor: pointer;
   font: bold 14px 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   height: 50px;
   outline: 0;
@@ -77,4 +78,24 @@ a .button-fanpage button{
 
 a .button-fanpage button:active{
   background: rgb(30, 48, 99);
+}
+
+.facebook-widget .loading-widget{
+  background: rgb(100,113,166);
+  height: 220px;
+  position: absolute;
+  width: 320px;
+  z-index: 9999;
+}
+
+.loading-widget img{
+  display: block;
+  height: 16px;
+  margin: 0 auto;
+  margin-top: 85px;
+  width: 16px;
+}
+
+.hide{
+  display: none;
 }

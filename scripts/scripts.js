@@ -32,8 +32,7 @@ PortalMauaERegiao.utils = {
   },
 
   controlarExibicaoLikeBox: function() {
-    var facebookWidget,
-      widget,
+    var widget,
       curtir,
       descurtir,
       loading;
